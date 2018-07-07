@@ -24,14 +24,41 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .content {
-    width: 100vw;
+    width: 80vw;
+    margin: auto;
+}
+
+.content-table {
+    float: none;
     display: block;
-    align-content: center;
-    padding-top: 20px;
+    padding-top: 50px;
+    margin: auto;
+    width: 80vw;
+}
+
+.paragraph1 {
+    border-bottom: 1px solid #bbb
 }
 
 table {
-    border: 2px #000;
     display: table;
     padding: 20px;
+    border-collapse: collapse;
+    border: 1px solid #bbb;
+}
+
+th #img, #proj, #date, #nbe {
+    width: 10vw;
+    text-align: center;
+}
+
+th #desc {
+    width: 60vw;
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid #bbb;
+    padding: 4px 2px;
+    margin: 0;
 }
