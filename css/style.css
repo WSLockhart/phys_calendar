@@ -1,34 +1,64 @@
 
 body {
-    background-color: #bbb;
+    background-color: #fff;
     font-family: verdana;
     align-items: center;
+    margin: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: navy;
+    color: #000;
     display: block;
     text-align: center;
 }
 
 .header {
-    background: #ddd;
+    background: #fff;
     align-items: center;
-    width: 100vw;
     padding-top: 20px;
     padding-bottom: 20px;
     margin: auto;
     left: 0;
     top: 0;
+    border-bottom: 2px solid #bbb;
 }
 
 .content {
-    width: 100vw;
+    width: 80vw;
+    margin: auto;
+}
+
+.content-table {
+    float: none;
     display: block;
-    align-content: center;
+    padding-top: 50px;
+    margin: auto;
+    width: 80vw;
+}
+
+.paragraph1 {
+    border-bottom: 1px solid #bbb
 }
 
 table {
-    border: 2px #000;
     display: table;
+    padding: 20px;
+    border-collapse: collapse;
+    border: 1px solid #bbb;
+}
+
+th #img, #proj, #date, #nbe {
+    width: 10vw;
+    text-align: center;
+}
+
+th #desc {
+    width: 60vw;
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid #bbb;
+    padding: 4px 2px;
+    margin: 0;
 }
