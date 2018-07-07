@@ -15,7 +15,7 @@ h1, h2, h3, h4, h5, h6 {
 .header {
     background: #fff;
     align-items: center;
-    padding-top: 20px;
+    padding-top: 60px;
     padding-bottom: 20px;
     margin: auto;
     left: 0;
@@ -23,17 +23,52 @@ h1, h2, h3, h4, h5, h6 {
     border-bottom: 2px solid #bbb;
 }
 
+.navbar-wrapper {
+    /* border-bottom: 2px solid #bbb; */
+    margin: 0;
+    position: absolute;
+    top: 0px;
+    background-color: #fff;
+    width: 100vw;
+}
+
+.navbar {
+    margin: auto;
+}
+
+.navbar li{
+    list-style-type: none;
+    display: block;
+    float: left;
+}
+
+.navbar li:not(:last-child) {
+    /* border-right: 1px solid #bbb; */
+}
+
+.navbar li a {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    padding: 16px 28px;
+}
+
+.navbar li a:hover {
+    background-color: #bbb;
+}
+
 .content {
     width: 80vw;
     margin: auto;
+    padding-top: 20px;
 }
 
 .content-table {
     float: none;
     display: block;
-    padding-top: 50px;
     margin: auto;
     width: 80vw;
+    padding-top: 20px;
 }
 
 .paragraph1 {
